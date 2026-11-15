@@ -1,0 +1,31 @@
+{
+ "version": 1,
+ "salutations": [
+  {
+   "avant": 6,
+   "texte": "Coucou 🌙"
+  },
+  {
+   "avant": 12,
+   "texte": "Bonjour ☀️"
+  },
+  {
+   "avant": 18,
+   "texte": "Bon après-midi 🌼"
+  },
+  {
+   "avant": 24,
+   "texte": "Bonsoir 🌙"
+  }
+ ],
+ "doux": [
+  "Chaque jour te rapproche de la rencontre 💛",
+  "Bébé grandit bien au chaud 🧸",
+  "Tu fais du super travail, maman 🌸",
+  "Prends soin de toi, tu le mérites ✨",
+  "Un petit câlin à ton ventre aujourd’hui ? 🤗",
+  "Respire, souris : tout va bien se passer 🌈"
+ ],
+ "nouvelleSemaine": "🎉 Nouvelle semaine aujourd’hui : bravo !",
+ "bientot": "🎀 Plus que {n} jour{s} avant de rencontrer bébé !"
+}
