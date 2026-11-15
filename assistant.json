@@ -171,7 +171,8 @@
    "src": [
     "spf-eviter",
     "sante-autorises"
-   ]
+   ],
+   "attention": "Les fromages à croûte fleurie ou lavée (camembert, brie, munster), les persillés (roquefort, bleu) et le lait cru restent déconseillés."
   },
   {
    "niveau": "info",
@@ -267,7 +268,8 @@
    "src": [
     "sante-autorises",
     "spf-nutriments"
-   ]
+   ],
+   "attention": "Le lait cru et les fromages au lait cru (sauf pâtes pressées cuites) sont fortement déconseillés. Vérifie « pasteurisé » sur l’étiquette."
   },
   {
    "niveau": "ok",
@@ -394,7 +396,8 @@
     "spf-eviter",
     "foodsafety"
    ],
-   "famille": "viande"
+   "famille": "viande",
+   "attention": "Le bacon cru ou peu cuit et la charcuterie sèche (saucisson, jambon cru, chorizo) sont fortement déconseillés."
   },
   {
    "niveau": "info",
@@ -544,7 +547,8 @@
     "spf-eviter",
     "sante-autorises"
    ],
-   "famille": "viande"
+   "famille": "viande",
+   "attention": "Saignante, rosée ou crue (tartare, carpaccio, magret rosé) : fortement déconseillée. La charcuterie (jambon, saucisson, pâté, rillettes) l’est aussi."
   },
   {
    "niveau": "info",
@@ -680,7 +684,8 @@
     "spf-precautions",
     "nhs"
    ],
-   "famille": "poisson"
+   "famille": "poisson",
+   "attention": "Seulement du poisson frais ou surgelé bien cuit. Le saumon fumé, le poisson mariné ou cru (sushi, tartare, gravlax, carpaccio) et les œufs de poisson (tarama) sont fortement déconseillés. Limite aussi le thon."
   },
   {
    "niveau": "limiter",
@@ -795,7 +800,8 @@
     "spf-eviter",
     "foodsafety"
    ],
-   "famille": "poisson"
+   "famille": "poisson",
+   "attention": "Crus (huîtres, plateau de fruits de mer, coquillages crus), ils sont fortement déconseillés."
   },
   {
    "niveau": "fort",
@@ -836,7 +842,8 @@
     "spf-eviter",
     "foodsafety"
    ],
-   "famille": "poisson"
+   "famille": "poisson",
+   "attention": "Les crevettes décortiquées déjà cuites et vendues au froid (salade, cocktail, nems frais) sont fortement déconseillées."
   },
   {
    "niveau": "ok",
@@ -859,7 +866,8 @@
     "spf-eviter",
     "pasteur-salmo"
    ],
-   "famille": "oeuf"
+   "famille": "oeuf",
+   "attention": "Les œufs crus, coulants, à la coque ou mollets, les sauces maison (mayonnaise, hollandaise) et les desserts à l’œuf cru (tiramisu, mousse) sont déconseillés."
   },
   {
    "niveau": "deconseille",
@@ -976,7 +984,8 @@
    "src": [
     "spf-eviter"
    ],
-   "famille": "oeuf"
+   "famille": "oeuf",
+   "attention": "Les mousses, le tiramisu et les crèmes à l’œuf cru, ainsi que les desserts à l’alcool (flambés, baba au rhum), sont déconseillés."
   },
   {
    "niveau": "info",
@@ -1191,7 +1200,8 @@
    "src": [
     "spf-eviter",
     "sante-autorises"
-   ]
+   ],
+   "attention": "Vérifie que la viande, le poisson et les fruits de mer sont bien cuits, et qu’il n’y a pas d’alcool dans la sauce."
   },
   {
    "niveau": "info",
@@ -1344,7 +1354,8 @@
     "sante-autorises",
     "sante-toxo",
     "spf-nutriments"
-   ]
+   ],
+   "attention": "Les graines germées crues (alfalfa, pousses de soja) sont fortement déconseillées. Lave toujours les fruits et légumes crus."
   },
   {
    "niveau": "ok",
