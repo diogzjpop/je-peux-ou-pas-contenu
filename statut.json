@@ -1,4 +1,13 @@
 {
-  "verifie": "2026-11-15",
-  "sources": {}
+ "verifie": "2026-11-15",
+ "sources": {
+  "ansm-ains": {
+   "etat": "inaccessible",
+   "note": "Le site des archives de l’ANSM était temporairement indisponible le 15/11/2026 : le PDF n’a pas pu être relu."
+  },
+  "sante-autorises": {
+   "etat": "a_verifier",
+   "note": "Divergences connues avec l’appli : jambon blanc classé « autorisé » et soja « 1 fois par jour en petite quantité » (l’appli reste prudente)."
+  }
+ }
 }

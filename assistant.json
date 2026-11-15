@@ -50,7 +50,7 @@
    "Y a-t-il de l’alcool dans la sauce ou le dessert ?",
    "Pouvez-vous me le préparer bien cuit ?"
   ],
-  "ecart": "Tu as déjà mangé quelque chose de déconseillé ? Ne panique pas : le risque reste faible dans la majorité des cas. Dans les semaines qui suivent, si tu as de la fièvre, des frissons, des courbatures ou des symptômes de grippe, consulte vite un médecin en précisant que tu es enceinte.",
+  "ecart": "Tu as déjà mangé quelque chose de déconseillé ? Ne panique pas : tous les bébés exposés ne développent pas de problème. Dans les semaines qui suivent, si tu as de la fièvre, des frissons, des courbatures ou des symptômes de grippe, consulte vite un médecin en précisant que tu es enceinte.",
   "src": [
    "spf-eviter",
    "spf-precautions",
@@ -79,7 +79,7 @@
    "titre": "Fromages à pâte molle et à croûte (camembert, brie, munster…)",
    "texte": "À éviter, même pasteurisés : la croûte fleurie ou lavée favorise la listéria.",
    "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
-   "astuce": "Le risque disparaît seulement s’ils sont cuits jusqu’à ce qu’ils soient très chauds à cœur (selon le NHS britannique). Retire toujours la croûte. En cas de doute, ne le mange pas.",
+   "astuce": "Selon le NHS britannique, ils ne sont acceptables que s’ils sont bien cuits (jamais froids ni tièdes). Retire toujours la croûte. En cas de doute, ne le mange pas.",
    "alternative": "Emmental, comté, gruyère, parmesan, beaufort : autorisés, même au lait cru.",
    "src": [
     "spf-eviter",
@@ -102,7 +102,7 @@
    "titre": "Fromages persillés (roquefort, bleu, gorgonzola…)",
    "texte": "À éviter, même pasteurisés.",
    "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
-   "astuce": "En sauce ou en gratin, ils ne sont acceptables que cuits jusqu’à être bouillants à cœur (NHS). Sinon, évite.",
+   "astuce": "En sauce ou en gratin, ils ne sont acceptables que bien cuits (NHS). Sinon, évite.",
    "alternative": "Fromage à pâte pressée cuite : comté, emmental, parmesan.",
    "src": [
     "spf-eviter",
@@ -328,7 +328,7 @@
    "famille": "viande"
   },
   {
-   "niveau": "fort",
+   "niveau": "deconseille",
    "noms": [
     "jambon",
     "jambon blanc",
@@ -344,14 +344,14 @@
     "jambon beurre"
    ],
    "titre": "Jambon blanc et charcuteries cuites vendues au froid",
-   "texte": "À éviter par précaution : la listéria peut se développer sur les tranches vendues au froid. Si tu en manges, il doit être chauffé jusqu’à ce qu’il soit fumant.",
+   "texte": "Les sources ne s’accordent pas : Santé.fr (mpedia) autorise le jambon blanc bien cuit, mais la listéria peut se développer sur les tranches vendues au froid. Par précaution, l’appli le déconseille. S’il est chauffé jusqu’à devenir fumant, le risque est bien moindre (FoodSafety.gov).",
    "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
-   "astuce": "Dans un croque-monsieur très chaud ou une pizza sortie du four, il est chauffé à cœur : le risque est bien moindre.",
+   "astuce": "Dans un croque-monsieur très chaud ou une pizza sortie du four, il est chauffé à cœur : le risque est bien moindre. Dans le doute, demande conseil à ton médecin ou à ta sage-femme.",
    "alternative": "Poulet ou dinde cuits à la maison et mangés chauds ou froids dans la journée.",
    "src": [
     "spf-eviter",
-    "foodsafety",
-    "sante-autorises"
+    "sante-autorises",
+    "foodsafety"
    ],
    "famille": "viande"
   },
@@ -594,7 +594,7 @@
    "titre": "Poisson cru (sushi, sashimi, tartare, poke…)",
    "texte": "Fortement déconseillé : listériose et parasites.",
    "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
-   "astuce": "Les sushis et makis sont acceptables uniquement avec du poisson bien cuit, des légumes ou de l’avocat. Attention à la sauce soja (déconseillée par précaution).",
+   "astuce": "Les sushis et makis sont acceptables uniquement avec du poisson bien cuit, des légumes ou de l’avocat. La sauce soja est tolérée de temps en temps, en petite quantité.",
    "alternative": "Maki végétal ou à la crevette bien cuite, poulet teriyaki sans sauce soja, riz et légumes.",
    "src": [
     "spf-eviter",
@@ -701,7 +701,7 @@
     "dorade",
     "lotte",
     "raie",
-    "anguille",
+    "aiglefin",
     "daurade",
     "turbot",
     "flétan",
@@ -722,6 +722,26 @@
    "famille": "poisson"
   },
   {
+   "niveau": "limiter",
+   "noms": [
+    "anguille",
+    "carpe",
+    "silure",
+    "barbeau",
+    "breme",
+    "poisson chat",
+    "poissons d eau douce",
+    "poisson d eau douce"
+   ],
+   "titre": "Poissons d’eau douce prédateurs (anguille, carpe, silure…)",
+   "texte": "À limiter très fortement : Santé.fr indique au plus 1 fois tous les 2 mois, voire une abstention.",
+   "risque": "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse.",
+   "alternative": "Saumon, cabillaud, colin, merlu ou sardines cuits.",
+   "src": [
+    "sante-poisson"
+   ]
+  },
+  {
    "niveau": "fort",
    "noms": [
     "espadon",
@@ -730,13 +750,14 @@
     "siki",
     "saumonette",
     "lamproie",
+    "foie de morue",
     "roussette",
     "veau de mer",
     "emissole",
     "pailona"
    ],
-   "titre": "Espadon, requin, marlin, siki…",
-   "texte": "Fortement déconseillés pendant la grossesse : teneur élevée en mercure.",
+   "titre": "Espadon, requin, marlin, siki, lamproie, foie de morue",
+   "texte": "Fortement déconseillés pendant la grossesse : teneur élevée en mercure et autres polluants.",
    "risque": "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse.",
    "alternative": "Saumon, cabillaud ou colin cuits.",
    "src": [
@@ -1224,24 +1245,41 @@
    "noms": [
     "soja",
     "tofu",
-    "sauce soja",
     "lait de soja",
     "yaourt au soja",
     "edamame",
     "miso",
     "soupe miso",
     "tempeh",
-    "tamari",
     "nouilles de soja",
     "steak de soja"
    ],
    "titre": "Soja et produits à base de soja (tofu, sauce soja, miso…)",
-   "texte": "À éviter par précaution pendant la grossesse (phytoœstrogènes).",
+   "texte": "À éviter par précaution pendant la grossesse (phytoœstrogènes). Santé publique France recommande de ne pas en consommer, et Santé.fr (mpedia) tolère au plus une petite portion par jour : l’appli reste prudente.",
    "risque": "Pas de risque chiffré dans nos sources : c’est une précaution (phytoœstrogènes).",
    "alternative": "Lait d’avoine ou de riz, légumineuses (lentilles, pois chiches).",
    "src": [
     "spf-precautions",
     "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "sauce soja",
+    "sauce de soja",
+    "tamari",
+    "shoyu",
+    "sauce teriyaki",
+    "teriyaki"
+   ],
+   "titre": "Sauce soja",
+   "texte": "Santé publique France indique que la sauce soja peut être consommée occasionnellement. Garde-la pour de petites quantités, de temps en temps.",
+   "risque": "Pas de risque chiffré dans nos sources : c’est une précaution (phytoœstrogènes).",
+   "alternative": "Sel, citron, herbes ou épices pour assaisonner.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises"
    ]
   },
   {
