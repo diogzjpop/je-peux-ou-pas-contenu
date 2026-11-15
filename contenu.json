@@ -1,0 +1,798 @@
+{
+ "version": 1,
+ "maj": "2026-11-15",
+ "niveaux": {
+  "fort": {
+   "icone": "⛔",
+   "label": "Fortement déconseillé",
+   "couleur": "#B71C1C"
+  },
+  "deconseille": {
+   "icone": "⚠️",
+   "label": "Déconseillé",
+   "couleur": "#E65100"
+  },
+  "limiter": {
+   "icone": "🔸",
+   "label": "À limiter",
+   "couleur": "#8A6D00"
+  },
+  "ok": {
+   "icone": "✅",
+   "label": "Autorisé",
+   "couleur": "#2E7D32"
+  },
+  "faire": {
+   "icone": "👉",
+   "label": "À faire",
+   "couleur": "#1565C0"
+  },
+  "info": {
+   "icone": "ℹ️",
+   "label": "Bon à savoir",
+   "couleur": "#5F5A75"
+  }
+ },
+ "sources": {
+  "spf-eviter": {
+   "titre": "Quels aliments éviter et quelles précautions prendre quand on est enceinte ?",
+   "zone": "FR",
+   "org": "Santé publique France – Manger Bouger (sante.fr)",
+   "date": "publié le 15/10/2025",
+   "url": "https://www.sante.fr/node/7070507"
+  },
+  "spf-precautions": {
+   "titre": "Les précautions alimentaires pendant la grossesse",
+   "zone": "FR",
+   "org": "Santé publique France – 1000 premiers jours (sante.fr)",
+   "date": "publié le 02/12/2024",
+   "url": "https://www.sante.fr/node/1870993"
+  },
+  "sante-autorises": {
+   "titre": "Grossesse : les aliments autorisés, déconseillés et interdits",
+   "zone": "FR",
+   "org": "mpedia, Association Française de Pédiatrie Ambulatoire (sante.fr)",
+   "date": "24/04/2026",
+   "url": "https://www.sante.fr/node/1068442"
+  },
+  "sante-alim": {
+   "titre": "Enceinte, une alimentation saine et équilibrée durant la grossesse",
+   "zone": "FR",
+   "org": "mpedia, Association Française de Pédiatrie Ambulatoire (sante.fr)",
+   "date": "publié le 28/08/2025",
+   "url": "https://www.sante.fr/enceinte-une-alimentation-saine-et-equilibree"
+  },
+  "spf-nutriments": {
+   "titre": "Les nutriments essentiels au futur bébé",
+   "zone": "FR",
+   "org": "Santé publique France – 1000 premiers jours (sante.fr)",
+   "date": "publié le 20/10/2023",
+   "url": "https://www.sante.fr/node/1870991"
+  },
+  "sante-vitamines": {
+   "titre": "Vitamines et minéraux nécessaires pendant la grossesse",
+   "zone": "FR",
+   "org": "mpedia, Association Française de Pédiatrie Ambulatoire (sante.fr)",
+   "date": "publié le 09/07/2025",
+   "url": "https://www.sante.fr/node/1068434"
+  },
+  "spf-suivi": {
+   "titre": "Le suivi médical de grossesse",
+   "zone": "FR",
+   "org": "Santé publique France – 1000 premiers jours (sante.fr)",
+   "date": "publié le 20/10/2025",
+   "url": "https://www.sante.fr/node/1871321"
+  },
+  "service-public": {
+   "titre": "Grossesse : examens médicaux",
+   "zone": "FR",
+   "org": "Service-Public.fr (DILA)",
+   "date": "vérifié le 16/03/2026",
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15804"
+  },
+  "spf-activite": {
+   "titre": "L’activité physique pendant la grossesse",
+   "zone": "FR",
+   "org": "Santé publique France – 1000 premiers jours (sante.fr)",
+   "date": "publié le 25/04/2023",
+   "url": "https://www.sante.fr/node/1871127"
+  },
+  "has-coqueluche": {
+   "titre": "Recommandation vaccinale contre la coqueluche chez la femme enceinte",
+   "zone": "FR",
+   "org": "Haute Autorité de santé (HAS)",
+   "date": "12/04/2022",
+   "url": "https://www.has-sante.fr/jcms/p_3084228"
+  },
+  "ansm": {
+   "titre": "Les risques de la prise de médicaments lors de votre grossesse",
+   "zone": "FR",
+   "org": "Agence nationale de sécurité du médicament (ANSM)",
+   "date": "page consultée en nov. 2026",
+   "url": "https://ansm.sante.fr/dossiers-thematiques/les-risques-de-la-prise-de-medicaments-lors-de-votre-grossesse/impression/13"
+  },
+  "sante-toxo": {
+   "zone": "FR",
+   "titre": "La toxoplasmose enceinte, comment l’éviter ?",
+   "org": "mpedia, Association Française de Pédiatrie Ambulatoire (sante.fr)",
+   "date": "publié le 13/02/2025",
+   "url": "https://www.sante.fr/la-toxoplasmose-enceinte-comment-leviter"
+  },
+  "sante-alcool": {
+   "zone": "FR",
+   "titre": "Alcool et grossesse : quels risques pour la santé du bébé et de la maman ?",
+   "org": "mpedia, Association Française de Pédiatrie Ambulatoire (sante.fr)",
+   "date": "publié le 01/09/2025",
+   "url": "https://www.sante.fr/node/1068466"
+  },
+  "sante-poisson": {
+   "zone": "FR",
+   "titre": "Les femmes enceintes doivent-elles éviter de manger du poisson ?",
+   "org": "Santé.fr (Service Public d’Information en Santé), recommandations de l’Anses",
+   "date": "publié le 17/03/2025",
+   "url": "https://www.sante.fr/node/11302691"
+  },
+  "spf-tabac": {
+   "zone": "FR",
+   "titre": "Quelles sont les conséquences du tabagisme sur la santé ?",
+   "org": "Santé publique France",
+   "date": "mise à jour le 15/10/2025",
+   "url": "https://www.santepubliquefrance.fr/tabac/quelles-sont-les-consequences-du-tabagisme-sur-la-sante"
+  },
+  "pasteur-salmo": {
+   "zone": "FR",
+   "titre": "Salmonelloses (fiche maladie)",
+   "org": "Institut Pasteur",
+   "date": "mise à jour en novembre 2024",
+   "url": "https://www.pasteur.fr/fr/centre-medical/fiches-maladies/salmonellose"
+  },
+  "ansm-ains": {
+   "zone": "FR",
+   "titre": "Anti-inflammatoires non stéroïdiens et grossesse (lettre aux professionnels de santé)",
+   "org": "Afssaps, devenue l’ANSM",
+   "date": "février 2009",
+   "url": "https://archive.ansm.sante.fr/content/download/17228/206702/version/1/file/lp-090227-grossesse-ains.pdf"
+  },
+  "nhs": {
+   "zone": "INT",
+   "titre": "Foods to avoid in pregnancy (aliments à éviter pendant la grossesse)",
+   "org": "NHS, service de santé public du Royaume-Uni",
+   "date": "relue le 15/06/2026",
+   "url": "https://www.nhs.uk/conditions/pregnancy-and-baby/foods-to-avoid-pregnant/"
+  },
+  "foodsafety": {
+   "zone": "INT",
+   "titre": "Food safety for pregnant women (sécurité des aliments pour les femmes enceintes)",
+   "org": "FoodSafety.gov, gouvernement fédéral des États-Unis (HHS)",
+   "date": "relue le 05/10/2026",
+   "url": "https://www.foodsafety.gov/risk/pregnant"
+  },
+  "mothertobaby": {
+   "zone": "INT",
+   "titre": "Listeriosis and pregnancy (listériose et grossesse)",
+   "org": "MotherToBaby (Organization of Teratology Information Specialists)",
+   "date": "janvier 2026",
+   "url": "https://mothertobaby.org/fact-sheets/listeriosis-pregnancy/"
+  },
+  "efsa": {
+   "zone": "INT",
+   "titre": "Caffeine: EFSA explains the safety of caffeine (sécurité de la caféine)",
+   "org": "EFSA, Autorité européenne de sécurité des aliments",
+   "date": "avis de 2015",
+   "url": "https://www.efsa.europa.eu/sites/default/files/corporate_publications/files/efsaexplainscaffeine150527.pdf"
+  },
+  "fda-fish": {
+   "zone": "INT",
+   "titre": "Advice about eating fish (conseils sur la consommation de poisson)",
+   "org": "FDA et EPA, États-Unis",
+   "date": "page de mars 2024, conseil révisé en octobre 2021",
+   "url": "https://www.fda.gov/food/consumers/eating-fish-what-pregnant-women-and-parents-should-know"
+  },
+  "cdc-folic": {
+   "zone": "INT",
+   "titre": "About folic acid (à propos de l’acide folique)",
+   "org": "CDC, agence américaine de santé publique",
+   "date": "mise à jour le 18/09/2026",
+   "url": "https://www.cdc.gov/folic-acid/about/index.html"
+  },
+  "oms-activite": {
+   "zone": "INT",
+   "titre": "Physical activity (activité physique), fiche d’information",
+   "org": "Organisation mondiale de la santé (OMS)",
+   "date": "page du 04/11/2026",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+  },
+  "off": {
+   "titre": "Données produits (ingrédients, labels, photos)",
+   "zone": "DATA",
+   "org": "Open Food Facts, base collaborative, licence ODbL",
+   "date": "données en continu",
+   "url": "https://world.openfoodfacts.org"
+  }
+ },
+ "rubriques": [
+  {
+   "id": "aliments",
+   "onglet": "Alimentaires",
+   "emoji": "🍽️",
+   "titre": "Conseils alimentaires",
+   "intro": "Ce qu’il faut éviter, limiter ou adapter dans ton assiette, avec le niveau de risque.",
+   "sources": [
+    "spf-eviter",
+    "spf-precautions",
+    "sante-autorises",
+    "sante-toxo",
+    "mothertobaby",
+    "pasteur-salmo",
+    "sante-alcool",
+    "sante-poisson",
+    "nhs",
+    "foodsafety",
+    "fda-fish",
+    "efsa"
+   ],
+   "cartes": [
+    {
+     "emoji": "🔥",
+     "couleur": "#FF8A65",
+     "titre": "Cuissons : les erreurs à ne pas faire",
+     "src": [
+      "spf-eviter",
+      "spf-precautions",
+      "foodsafety",
+      "mothertobaby",
+      "sante-toxo",
+      "pasteur-salmo"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Viande crue ou peu cuite (tartare, carpaccio, steak saignant ou rosé) : risque de toxoplasmose, qui peut avoir des conséquences graves pour le bébé.",
+       "Toxoplasmose : au 1ᵉʳ trimestre, malformations sévères (hydrocéphalie), lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche ou mort in utero. Plus tard : atteintes des yeux (choriorétinite) et troubles neurologiques."
+      ],
+      [
+       "faire",
+       "Une viande « bien cuite » perd sa couleur rouge et devient beige rosé à cœur. Cela vaut aussi pour la viande hachée."
+      ],
+      [
+       "fort",
+       "Poisson cru, fumé ou mariné (sushi, sashimi, saumon fumé, tarama) et coquillages crus. La congélation n’élimine pas la listéria.",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "faire",
+       "Poisson cuit à cœur (plus de 65 °C), sans chair translucide."
+      ],
+      [
+       "fort",
+       "Œufs crus ou pas assez cuits (à la coque, mollets, au plat) et recettes maison aux œufs crus (mayonnaise, mousse au chocolat, tiramisu) : risque de salmonellose.",
+       "Salmonellose : l’infection peut être très sévère chez la femme enceinte, avec passage de la bactérie dans le sang, voire mortelle. Diarrhée, fièvre et vomissements en sont les premiers signes."
+      ],
+      [
+       "faire",
+       "Œufs cuits jusqu’à ce que le blanc et le jaune soient fermes (durs, omelette bien prise)."
+      ],
+      [
+       "deconseille",
+       "Plat réchauffé seulement tiède : chauffe-le jusqu’à ce qu’il soit chaud partout (au moins 74 °C selon l’agence américaine). Réchauffe bien les restes et garde-les 3 jours maximum.",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "info",
+       "Pourquoi tant de précautions ? La listériose peut provoquer une fausse couche, un accouchement prématuré ou une infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "deconseille",
+       "Décongélation à température ambiante : décongèle au réfrigérateur."
+      ]
+     ]
+    },
+    {
+     "emoji": "🧀",
+     "couleur": "#FFC857",
+     "titre": "Fromages",
+     "src": [
+      "spf-eviter",
+      "sante-autorises",
+      "mothertobaby",
+      "nhs",
+      "foodsafety"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Lait cru et fromages au lait cru, fromages à pâte molle à croûte fleurie ou lavée (camembert, brie, munster, pont-l’évêque), bleus, reblochon, morbier : à oublier pendant les 9 mois (risque de listériose).",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "deconseille",
+       "Fromage râpé industriel en sachet : râpe-le toi-même, à partir d’un fromage à pâte pressée cuite.",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "ok",
+       "Fromages à pâte pressée cuite (comté, emmental, gruyère, parmesan, beaufort), fromages fondus à tartiner et fromages cuits dans un plat (gratin, quiche)."
+      ],
+      [
+       "faire",
+       "Enlève toujours la croûte des fromages."
+      ],
+      [
+       "info",
+       "Les règles varient selon les pays : le NHS britannique accepte les fromages pasteurisés mais demande de bien cuire brie et camembert, et les agences américaines acceptent les fromages pasteurisés. La France est plus stricte, et l’appli suit les recommandations françaises."
+      ]
+     ]
+    },
+    {
+     "emoji": "🥩",
+     "couleur": "#F26B6B",
+     "titre": "Charcuteries et viandes",
+     "src": [
+      "spf-precautions",
+      "sante-autorises",
+      "mothertobaby",
+      "pasteur-salmo",
+      "nhs",
+      "foodsafety"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Rillettes, pâtés, foie gras, produits en gelée, saucisson sec, jambon sec ou cru : risque de listéria.",
+       "Listériose (fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né). Saucisson et jambon secs : aussi salmonellose, qui peut être très sévère chez la femme enceinte."
+      ],
+      [
+       "deconseille",
+       "Jambon blanc du commerce : les sources ne s’accordent pas (certaines l’autorisent bien cuit). Par précaution, l’appli le signale : demande conseil à ton médecin ou à ta sage-femme.",
+       "Certaines charcuteries peuvent contenir de la listéria (listériose : voir plus haut)."
+      ],
+      [
+       "limiter",
+       "Foie et produits à base de foie : limite-les autant que possible (excès de vitamine A). Le NHS britannique conseille de les éviter.",
+       "L’excès de vitamine A peut nuire au bébé, et le foie en contient beaucoup."
+      ],
+      [
+       "ok",
+       "Viandes bien cuites, sans trace rouge à cœur."
+      ]
+     ]
+    },
+    {
+     "emoji": "🐟",
+     "couleur": "#5CD6C8",
+     "titre": "Poissons et fruits de mer",
+     "src": [
+      "spf-precautions",
+      "sante-autorises",
+      "sante-poisson",
+      "fda-fish",
+      "nhs",
+      "mothertobaby"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Espadon, marlin, siki/saumonette, requin, lamproie : polluants (mercure) en quantité trop élevée.",
+       "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse. Il s’accumule surtout chez les poissons prédateurs."
+      ],
+      [
+       "limiter",
+       "Thon (même en conserve), anguille, lotte, bar, dorade, raie : à limiter. Varie les espèces.",
+       "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse. Il s’accumule surtout chez les poissons prédateurs."
+      ],
+      [
+       "fort",
+       "Crustacés décortiqués vendus cuits et coquillages crus. Achète les crustacés crus et cuis-les toi-même.",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "ok",
+       "À favoriser, bien cuits : colin, cabillaud, saumon, sardine, maquereau, hareng, truite, merlan, sole."
+      ],
+      [
+       "info",
+       "À l’étranger, la FDA américaine déconseille aussi le requin, l’espadon, le marlin, le thon obèse, l’hoplostète rouge et le roi maquereau. Le NHS limite le thon à 4 boîtes ou 2 steaks par semaine, et le poisson gras à 2 portions par semaine."
+      ]
+     ]
+    },
+    {
+     "emoji": "🥬",
+     "couleur": "#9ACD5F",
+     "titre": "Fruits, légumes et herbes",
+     "src": [
+      "spf-eviter",
+      "sante-toxo",
+      "mothertobaby"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Lave très soigneusement les légumes, fruits et herbes aromatiques pour enlever tout résidu de terre (toxoplasmose), y compris les salades en sachet.",
+       "Toxoplasmose : au 1ᵉʳ trimestre, malformations sévères (hydrocéphalie), lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche ou mort in utero. Plus tard : atteintes des yeux (choriorétinite) et troubles neurologiques."
+      ],
+      [
+       "fort",
+       "Graines germées crues : à éviter (listéria).",
+       "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, faible poids de naissance, infection grave du nouveau-né (méningite). Elle peut toucher le bébé même si tu n’as aucun symptôme."
+      ],
+      [
+       "faire",
+       "Au restaurant, choisis-les cuits si tu ne sais pas comment ils ont été lavés."
+      ]
+     ]
+    },
+    {
+     "emoji": "☕",
+     "couleur": "#FF9F68",
+     "titre": "Boissons",
+     "src": [
+      "spf-precautions",
+      "sante-alcool",
+      "efsa",
+      "nhs"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Alcool : aucune quantité n’est sans risque. Zéro alcool, sous toutes ses formes, y compris dans les plats et desserts, même cuits.",
+       "Fausse couche, malformations, retard de croissance, naissance prématurée et troubles causés par l’alcoolisation fœtale, première cause non génétique de handicap mental évitable de l’enfant (troubles cognitifs et du comportement). Il n’existe pas de quantité d’alcool sûre."
+      ],
+      [
+       "limiter",
+       "Caféine : 3 tasses de café par jour au maximum en France, thé, sodas et boissons énergisantes compris."
+      ],
+      [
+       "limiter",
+       "Par prudence, l’EFSA (Europe) et le NHS (Royaume-Uni) retiennent une limite de 200 mg de caféine par jour, toutes sources confondues. Le NHS compte environ 100 mg pour une tasse de café instantané, 75 mg pour une tasse de thé, 40 mg pour une canette de cola."
+      ]
+     ]
+    },
+    {
+     "emoji": "🌱",
+     "couleur": "#B79CFF",
+     "titre": "Soja",
+     "src": [
+      "spf-precautions"
+     ],
+     "lignes": [
+      [
+       "deconseille",
+       "Par précaution, ne consomme pas de soja ni de produits à base de soja (tofu, boisson au soja, desserts au soja), ni de compléments à base de soja. La sauce soja est tolérée de temps en temps.",
+       "Les sources ne chiffrent pas de risque : c’est une précaution (phytoœstrogènes)."
+      ]
+     ]
+    },
+    {
+     "emoji": "🧼",
+     "couleur": "#7FC8F8",
+     "titre": "Hygiène et conservation",
+     "src": [
+      "spf-eviter",
+      "sante-toxo"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Respecte les dates limites, consomme vite après ouverture, garde ton frigo à 4 °C maximum."
+      ],
+      [
+       "faire",
+       "Lave-toi les mains après avoir manipulé des aliments crus, jardiné ou touché un animal."
+      ],
+      [
+       "faire",
+       "Jardine avec des gants. Évite de changer la litière du chat, sinon porte des gants et lave-toi bien les mains (toxoplasmose).",
+       "Toxoplasmose : au 1ᵉʳ trimestre, malformations sévères (hydrocéphalie), lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche ou mort in utero. Plus tard : atteintes des yeux (choriorétinite) et troubles neurologiques."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nutrition",
+   "onglet": "Nutritionnels",
+   "emoji": "🥗",
+   "titre": "Conseils nutritionnels",
+   "intro": "Bien manger pour toi et pour bébé : les repères du quotidien et les nutriments importants.",
+   "sources": [
+    "sante-alim",
+    "spf-nutriments",
+    "sante-vitamines",
+    "cdc-folic",
+    "efsa"
+   ],
+   "cartes": [
+    {
+     "emoji": "🍎",
+     "couleur": "#9ACD5F",
+     "titre": "Les repères du jour",
+     "src": [
+      "sante-alim"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Fruits et légumes : 5 portions par jour (une portion = environ 80 g), de saison si possible."
+      ],
+      [
+       "faire",
+       "Féculents (pain, pâtes, riz, légumes secs, céréales) : à chaque repas."
+      ],
+      [
+       "faire",
+       "Produits laitiers : environ 3 par jour (fromage, yaourt, lait), en évitant le lait cru."
+      ],
+      [
+       "faire",
+       "Viande, poisson ou œuf : 1 à 2 fois par jour, bien cuits. Viande rouge pour le fer."
+      ],
+      [
+       "faire",
+       "Poisson : 2 fois par semaine, dont 1 poisson maigre (cabillaud, merlan, sole) et 1 poisson gras (maquereau, sardine, saumon)."
+      ],
+      [
+       "faire",
+       "Eau : de l’eau plate ou des tisanes à volonté tout au long de la journée."
+      ]
+     ]
+    },
+    {
+     "emoji": "⏰",
+     "couleur": "#FFC857",
+     "titre": "Les repas et les envies",
+     "src": [
+      "sante-alim"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "3 repas par jour, sans en sauter. À partir du 2ᵉ trimestre, ajoute une collation équilibrée l’après-midi (fruit, produit laitier, oléagineux)."
+      ],
+      [
+       "info",
+       "Il ne s’agit pas de manger « deux fois plus » mais « deux fois mieux »."
+      ],
+      [
+       "limiter",
+       "Grignotages sucrés et produits industriels riches en graisses saturées : privilégie le fait maison."
+      ],
+      [
+       "info",
+       "Prise de poids conseillée : environ 9 à 12 kg selon ton IMC de départ, surtout en fin de grossesse. Un régime amaigrissant est à proscrire."
+      ]
+     ]
+    },
+    {
+     "emoji": "💊",
+     "couleur": "#B79CFF",
+     "titre": "Les nutriments clés",
+     "src": [
+      "spf-nutriments",
+      "sante-vitamines",
+      "sante-alim",
+      "cdc-folic"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Acide folique (vitamine B9) : supplément prescrit, idéalement dès le projet de grossesse, puis en début de grossesse. Il aide au développement du système nerveux de bébé."
+      ],
+      [
+       "info",
+       "Repère international : les CDC américains conseillent 400 µg d’acide folique par jour, au moins 1 mois avant la conception. En cas d’antécédent d’anomalie du tube neural, la dose est beaucoup plus élevée et décidée par le médecin."
+      ],
+      [
+       "faire",
+       "Vitamine D : demande à ton médecin ou à ta sage-femme si un supplément est utile. Les poissons gras et les produits laitiers enrichis en apportent."
+      ],
+      [
+       "faire",
+       "Iode : utilise du sel iodé pour cuisiner. Évite les algues (certaines contiennent trop d’iode) et fais bien cuire poissons et coquillages."
+      ],
+      [
+       "faire",
+       "Calcium : environ 3 produits laitiers par jour, de l’eau minérale riche en calcium (plus de 150 mg/L) ou une petite poignée d’amandes ou de noisettes."
+      ],
+      [
+       "faire",
+       "Fer : viande, poisson et légumes secs. La vitamine C aide à l’absorber, la caféine la réduit."
+      ],
+      [
+       "fort",
+       "Fer et autres compléments : ne prends pas de supplément sans avis médical (risque de surdosage). Les compléments à base de berbérine sont déconseillés pendant la grossesse.",
+       "Risque de surdosage : un complément pris sans avis médical peut être nocif."
+      ]
+     ]
+    },
+    {
+     "emoji": "🧪",
+     "couleur": "#7FC8F8",
+     "titre": "Régimes particuliers",
+     "src": [
+      "sante-alim"
+     ],
+     "lignes": [
+      [
+       "deconseille",
+       "Les régimes restrictifs sont à éviter."
+      ],
+      [
+       "faire",
+       "Végétarienne, végétalienne, sans gluten, diabétique ? Parles-en à un professionnel de santé pour adapter ton alimentation et tes suppléments."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grossesse",
+   "onglet": "Grossesse",
+   "emoji": "🤰",
+   "titre": "Mes bons réflexes pendant la grossesse",
+   "intro": "Les rendez-vous, les gestes et les précautions à ne pas oublier de la 1ʳᵉ semaine à l’accouchement.",
+   "sources": [
+    "spf-suivi",
+    "service-public",
+    "spf-activite",
+    "oms-activite",
+    "has-coqueluche",
+    "ansm",
+    "ansm-ains",
+    "sante-alcool",
+    "spf-tabac"
+   ],
+   "cartes": [
+    {
+     "emoji": "📅",
+     "couleur": "#FFC857",
+     "titre": "Le suivi médical",
+     "src": [
+      "spf-suivi",
+      "service-public"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Déclare ta grossesse avant la fin du 3ᵉ mois."
+      ],
+      [
+       "faire",
+       "7 consultations médicales sont prévues, environ une par mois, plus des analyses de sang et d’urine."
+      ],
+      [
+       "faire",
+       "3 échographies : datation avant la fin du 3ᵉ mois, morphologie au 5ᵉ mois, croissance et position du bébé au 7ᵉ mois."
+      ],
+      [
+       "faire",
+       "Pense à l’entretien prénatal précoce, aux séances de préparation à la naissance (prises en charge à 100 % avec un médecin ou une sage-femme) et au bilan avec la sage-femme."
+      ],
+      [
+       "faire",
+       "Dentiste : un examen gratuit est possible dès le 4ᵉ mois de grossesse."
+      ],
+      [
+       "info",
+       "Ces rendez-vous peuvent évoluer selon ta grossesse : suis le calendrier donné par ton médecin ou ta sage-femme."
+      ]
+     ]
+    },
+    {
+     "emoji": "🚶‍♀️",
+     "couleur": "#9ACD5F",
+     "titre": "Bouger",
+     "src": [
+      "spf-activite",
+      "oms-activite"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "En l’absence de contre-indication médicale : au moins 30 minutes par jour d’activité d’intensité modérée."
+      ],
+      [
+       "faire",
+       "Tu n’étais pas active ? Commence par environ 15 minutes par jour, 3 jours par semaine, puis augmente progressivement jusqu’à 30 minutes par jour avant la fin du 3ᵉ mois."
+      ],
+      [
+       "info",
+       "Test de la conversation : tu dois pouvoir parler pendant l’effort. Si ce n’est pas le cas, ralentis."
+      ],
+      [
+       "faire",
+       "Bouge au moins toutes les deux heures pour limiter les temps assis. L’OMS demande aussi de limiter le temps passé assis, à tout âge."
+      ],
+      [
+       "info",
+       "Idées : marche rapide, vélo, natation, danse, jardinage, cours de gym ou de piscine pour femmes enceintes."
+      ]
+     ]
+    },
+    {
+     "emoji": "💉",
+     "couleur": "#7FC8F8",
+     "titre": "Vaccins",
+     "src": [
+      "has-coqueluche",
+      "spf-suivi"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Coqueluche : vaccin recommandé à chaque grossesse, de préférence entre 20 et 36 SA, pour protéger le nouveau-né."
+      ],
+      [
+       "info",
+       "Il peut être fait en même temps que le vaccin contre la grippe saisonnière ou la Covid-19 pendant la grossesse."
+      ],
+      [
+       "faire",
+       "Demande à ton médecin ou à ta sage-femme quels autres vaccins te sont recommandés au bon moment."
+      ]
+     ]
+    },
+    {
+     "emoji": "💊",
+     "couleur": "#F26B6B",
+     "titre": "Médicaments",
+     "src": [
+      "ansm",
+      "ansm-ains"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "L’automédication est à éviter, même pour les médicaments vendus sans ordonnance : demande toujours conseil à ton médecin, ta sage-femme ou ton pharmacien.",
+       "Selon le médicament et le stade de la grossesse : malformations (surtout au 1ᵉʳ trimestre), retard de croissance, effets sur le nouveau-né (par exemple un syndrome de sevrage), troubles à long terme."
+      ],
+      [
+       "fort",
+       "Ibuprofène et aspirine (anti-inflammatoires) : formellement contre-indiqués à partir du 6ᵉ mois de grossesse.",
+       "Toxicité grave, voire fatale, pour le bébé : fermeture brutale du canal artériel pouvant causer sa mort in utero, atteinte du cœur, atteinte des reins parfois irréversible avec baisse du liquide amniotique."
+      ],
+      [
+       "faire",
+       "Signale ta grossesse à chaque professionnel de santé et parle-lui de tes traitements en cours."
+      ]
+     ]
+    },
+    {
+     "emoji": "🚭",
+     "couleur": "#FF9F68",
+     "titre": "Alcool et tabac",
+     "src": [
+      "sante-alim",
+      "sante-alcool",
+      "spf-tabac"
+     ],
+     "lignes": [
+      [
+       "fort",
+       "Alcool : à proscrire strictement pendant toute la grossesse.",
+       "Fausse couche, malformations, retard de croissance, naissance prématurée et troubles causés par l’alcoolisation fœtale, première cause non génétique de handicap mental évitable de l’enfant (troubles cognitifs et du comportement). Il n’existe pas de quantité d’alcool sûre."
+      ],
+      [
+       "fort",
+       "Tabac : l’arrêt total est recommandé. Ton médecin ou ta sage-femme peut t’aider à arrêter.",
+       "Fausse couche (risque multiplié par 3 en début de grossesse), accouchement prématuré, retard de croissance, mort du bébé in utero (+47 %), malformations et capacités cognitives réduites."
+      ]
+     ]
+    },
+    {
+     "emoji": "🚨",
+     "couleur": "#C62828",
+     "titre": "En cas de doute",
+     "src": [
+      "spf-suivi"
+     ],
+     "lignes": [
+      [
+       "faire",
+       "Un symptôme inhabituel ou une inquiétude ? Appelle ta sage-femme ou ton médecin. En cas d’urgence, appelle le 15."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
