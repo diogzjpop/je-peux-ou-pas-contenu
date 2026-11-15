@@ -1,0 +1,1569 @@
+{
+ "version": 1,
+ "maj": "2026-11-15",
+ "suggestions": [
+  "Sushi",
+  "Camembert",
+  "Café",
+  "Tiramisu",
+  "Saumon fumé",
+  "Steak saignant",
+  "Jambon",
+  "Fondue",
+  "Pizza",
+  "Mayonnaise",
+  "Huîtres",
+  "Thé"
+ ],
+ "restaurant": {
+  "titre": "Je n’ai pas cet aliment : voici comment décider tout de suite",
+  "regles": [
+   [
+    "faire",
+    "Choisis des plats chauds et bien cuits à cœur : viande ou volaille sans trace rose, poisson cuit, œufs durs ou bien pris, légumes cuits, pâtes, riz, pommes de terre."
+   ],
+   [
+    "fort",
+    "Écarte ce qui est cru, fumé ou mariné : sushi, tartare, carpaccio, saumon fumé, œufs de poisson."
+   ],
+   [
+    "fort",
+    "Écarte les fromages au lait cru, à croûte fleurie ou lavée, et les fromages persillés."
+   ],
+   [
+    "deconseille",
+    "Méfie-toi des sauces et des desserts à l’œuf cru : mayonnaise maison, tiramisu, mousse au chocolat."
+   ],
+   [
+    "fort",
+    "Zéro alcool, même dans une sauce ou un dessert (flambé, sauce au vin)."
+   ],
+   [
+    "info",
+    "Fruits et légumes crus : acceptables s’ils sont bien lavés. En cas de doute, choisis-les cuits."
+   ]
+  ],
+  "questions": [
+   "Est-ce bien cuit à cœur ?",
+   "Le fromage est-il au lait pasteurisé ?",
+   "Y a-t-il des œufs crus dans la sauce ou le dessert ?",
+   "Y a-t-il de l’alcool dans la sauce ou le dessert ?",
+   "Pouvez-vous me le préparer bien cuit ?"
+  ],
+  "ecart": "Tu as déjà mangé quelque chose de déconseillé ? Ne panique pas : le risque reste faible dans la majorité des cas. Dans les semaines qui suivent, si tu as de la fièvre, des frissons, des courbatures ou des symptômes de grippe, consulte vite un médecin en précisant que tu es enceinte.",
+  "src": [
+   "spf-eviter",
+   "spf-precautions",
+   "sante-toxo",
+   "mothertobaby"
+  ]
+ },
+ "aliments": [
+  {
+   "niveau": "fort",
+   "noms": [
+    "camembert",
+    "brie",
+    "coulommiers",
+    "chaource",
+    "munster",
+    "pont l eveque",
+    "livarot",
+    "reblochon",
+    "maroilles",
+    "saint marcellin",
+    "carre de l est",
+    "fromage a croute fleurie",
+    "fromage a croute lavee"
+   ],
+   "titre": "Fromages à pâte molle et à croûte (camembert, brie, munster…)",
+   "texte": "À éviter, même pasteurisés : la croûte fleurie ou lavée favorise la listéria.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Le risque disparaît seulement s’ils sont cuits jusqu’à ce qu’ils soient très chauds à cœur (selon le NHS britannique). Retire toujours la croûte. En cas de doute, ne le mange pas.",
+   "alternative": "Emmental, comté, gruyère, parmesan, beaufort : autorisés, même au lait cru.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "roquefort",
+    "bleu",
+    "bleu d auvergne",
+    "gorgonzola",
+    "fourme d ambert",
+    "stilton",
+    "fromage persille",
+    "persille"
+   ],
+   "titre": "Fromages persillés (roquefort, bleu, gorgonzola…)",
+   "texte": "À éviter, même pasteurisés.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "En sauce ou en gratin, ils ne sont acceptables que cuits jusqu’à être bouillants à cœur (NHS). Sinon, évite.",
+   "alternative": "Fromage à pâte pressée cuite : comté, emmental, parmesan.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "chevre chaud",
+    "salade de chevre",
+    "toast de chevre",
+    "chevre",
+    "buche de chevre",
+    "fromage de chevre"
+   ],
+   "titre": "Fromage de chèvre",
+   "texte": "Le chèvre à croûte fleurie est à éviter. Sur une salade, il n’est acceptable que très chaud et fondant à cœur, au lait pasteurisé, sans la croûte.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "alternative": "Demande une salade sans chèvre, ou avec du comté ou de l’emmental.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "feta",
+    "ricotta",
+    "mozzarella",
+    "burrata",
+    "mascarpone",
+    "fromage frais",
+    "fromage blanc",
+    "faisselle",
+    "petit suisse",
+    "cottage cheese",
+    "halloumi"
+   ],
+   "titre": "Feta, mozzarella, ricotta, fromage frais…",
+   "texte": "Acceptables uniquement s’ils sont faits avec du lait pasteurisé. Vérifie l’étiquette ou demande. Mange-les frais, bien conservés.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "alternative": "Au restaurant, si tu ne peux pas vérifier : prends plutôt un fromage à pâte pressée cuite.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "comte",
+    "emmental",
+    "gruyere",
+    "parmesan",
+    "beaufort",
+    "appenzeller",
+    "abondance",
+    "pecorino",
+    "grana",
+    "fromage a pate pressee cuite"
+   ],
+   "titre": "Fromages à pâte pressée cuite (comté, emmental, parmesan…)",
+   "texte": "Autorisés, même fabriqués au lait cru. Ne mange pas la croûte.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "gouda",
+    "edam",
+    "cantal",
+    "saint nectaire",
+    "tomme",
+    "mimolette",
+    "cheddar",
+    "raclette",
+    "morbier",
+    "fromage a pate pressee non cuite"
+   ],
+   "titre": "Fromages à pâte pressée non cuite (cantal, tomme, gouda, raclette…)",
+   "texte": "Acceptables s’ils sont au lait pasteurisé : évite le lait cru. Vérifie l’étiquette. Pour le morbier, évite-le (même pasteurisé, le risque listéria existe).",
+   "alternative": "Au doute : emmental, comté, gruyère.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "fromage fondu",
+    "fromage a tartiner",
+    "boursin",
+    "vache qui rit",
+    "kiri",
+    "philadelphia",
+    "saint moret"
+   ],
+   "titre": "Fromages fondus et à tartiner",
+   "texte": "En général pasteurisés : vérifie l’étiquette (« lait pasteurisé »).",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "fromage rape",
+    "fromage rape en sachet",
+    "emmental rape"
+   ],
+   "titre": "Fromage râpé en sachet",
+   "texte": "Déconseillé : l’humidité favorise la listéria.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "alternative": "Râpe-le toi-même, en retirant la croûte.",
+   "src": [
+    "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "lait cru",
+    "creme crue",
+    "fromage au lait cru",
+    "beurre cru",
+    "lait de la ferme",
+    "lait frais de ferme"
+   ],
+   "titre": "Lait cru et produits au lait cru",
+   "texte": "À éviter : le lait non pasteurisé peut contenir des bactéries dangereuses.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "alternative": "Lait pasteurisé ou UHT.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "lait",
+    "lait uht",
+    "lait pasteurise",
+    "yaourt",
+    "yogourt",
+    "creme fraiche",
+    "chantilly",
+    "creme",
+    "beurre",
+    "creme dessert",
+    "fromage blanc pasteurise"
+   ],
+   "titre": "Lait, yaourt, crème, beurre pasteurisés",
+   "texte": "Autorisés : un bon apport de calcium.",
+   "src": [
+    "sante-autorises",
+    "spf-nutriments"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "glace",
+    "creme glacee",
+    "sorbet",
+    "glace a l italienne",
+    "milk shake",
+    "milkshake"
+   ],
+   "titre": "Glaces et sorbets",
+   "texte": "Les glaces industrielles et pasteurisées sont acceptables. Une glace artisanale ou maison peut contenir des œufs crus : demande. Les glaces à l’italienne et les milk-shakes sont acceptables s’ils sont faits à partir d’un mélange pasteurisé.",
+   "alternative": "Sorbet, ou glace industrielle.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "saucisson",
+    "saucisson sec",
+    "jambon cru",
+    "jambon de parme",
+    "parme",
+    "prosciutto",
+    "serrano",
+    "bayonne",
+    "coppa",
+    "lonzo",
+    "rosette",
+    "chorizo",
+    "pepperoni",
+    "salami",
+    "bresaola",
+    "pancetta",
+    "speck",
+    "charcuterie",
+    "plateau de charcuterie",
+    "assiette de charcuterie",
+    "viande des grisons",
+    "figatelli"
+   ],
+   "titre": "Charcuterie crue ou sèche (saucisson, jambon cru, chorizo…)",
+   "texte": "Fortement déconseillée : listériose, toxoplasmose et salmonellose.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme. Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements).",
+   "astuce": "Sur une pizza bien chaude ou dans un plat cuit à cœur, le risque baisse nettement (NHS). En cas de doute, retire-la.",
+   "alternative": "Poulet ou dinde rôtis servis chauds, œuf dur, légumes.",
+   "src": [
+    "spf-eviter",
+    "nhs",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "jambon",
+    "jambon blanc",
+    "jambon cuit",
+    "jambon de dinde",
+    "jambon de poulet",
+    "blanc de poulet en tranches",
+    "charcuterie cuite",
+    "mortadelle",
+    "cervelas",
+    "viande froide",
+    "viandes froides",
+    "jambon beurre"
+   ],
+   "titre": "Jambon blanc et charcuteries cuites vendues au froid",
+   "texte": "À éviter par précaution : la listéria peut se développer sur les tranches vendues au froid. Si tu en manges, il doit être chauffé jusqu’à ce qu’il soit fumant.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Dans un croque-monsieur très chaud ou une pizza sortie du four, il est chauffé à cœur : le risque est bien moindre.",
+   "alternative": "Poulet ou dinde cuits à la maison et mangés chauds ou froids dans la journée.",
+   "src": [
+    "spf-eviter",
+    "foodsafety",
+    "sante-autorises"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "pate",
+    "rillettes",
+    "terrine",
+    "foie gras",
+    "pate de campagne",
+    "mousse de foie",
+    "produit en gelee",
+    "viande en gelee",
+    "oeufs en gelee",
+    "fromage de tete",
+    "museau",
+    "langue de boeuf",
+    "andouille"
+   ],
+   "titre": "Pâtés, rillettes, foie gras, produits en gelée",
+   "texte": "Fortement déconseillés : listériose.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "alternative": "Légumes crus lavés, œuf dur, fromage pâte pressée cuite.",
+   "src": [
+    "spf-eviter",
+    "spf-precautions",
+    "nhs"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "lardons",
+    "bacon cuit",
+    "lardons cuits"
+   ],
+   "titre": "Lardons et bacon bien cuits",
+   "texte": "Acceptables s’ils sont bien cuits à la poêle ou au four, jusqu’à être croustillants. Évite le bacon cru ou peu cuit.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "saucisse",
+    "merguez",
+    "chipolata",
+    "saucisse de toulouse",
+    "boudin",
+    "boudin noir",
+    "boudin blanc",
+    "andouillette"
+   ],
+   "titre": "Saucisses, merguez, boudin",
+   "texte": "À cuire toi-même (ou à faire cuire) jusqu’à ce qu’elles soient bien cuites à cœur, sans trace rose. Les saucisses déjà cuites vendues au froid sont à éviter.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "saucisse de strasbourg",
+    "saucisse de francfort",
+    "hot dog",
+    "hotdog",
+    "knacki",
+    "knack"
+   ],
+   "titre": "Hot-dog et saucisses déjà cuites",
+   "texte": "Déconseillés par précaution (listéria sur les produits cuits vendus au froid), sauf s’ils sont chauffés jusqu’à devenir bouillants à cœur.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "foie",
+    "foie de veau",
+    "foie de volaille",
+    "foie de porc",
+    "foie de boeuf",
+    "abats",
+    "rognons",
+    "terrine de foie"
+   ],
+   "titre": "Foie et abats",
+   "texte": "À limiter : très riches en vitamine A.",
+   "risque": "Un excès de vitamine A peut nuire au bébé, et le foie en contient beaucoup.",
+   "alternative": "Viande rouge ou volaille bien cuites pour le fer.",
+   "src": [
+    "spf-precautions",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "tartare",
+    "steak tartare",
+    "carpaccio de boeuf",
+    "carpaccio",
+    "viande crue",
+    "boeuf cru",
+    "cheval cru",
+    "saignant",
+    "bleu steak",
+    "viande saignante",
+    "steak saignant",
+    "steak bleu",
+    "viande bleue",
+    "entrecote saignante",
+    "magret rose",
+    "magret",
+    "canard rose",
+    "gigot rose",
+    "viande rose",
+    "cuisson a point",
+    "steak a point",
+    "viande a point"
+   ],
+   "titre": "Viande crue, saignante ou rosée",
+   "texte": "Fortement déconseillée : listériose et toxoplasmose. Demande toujours « bien cuit ».",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme. Toxoplasmose : malformations, lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche.",
+   "astuce": "Bien cuite : plus de rouge ni de rose à l’intérieur, jus clair. Au restaurant, dis « bien cuit » au serveur.",
+   "alternative": "Poulet, dinde ou bœuf bien cuits.",
+   "src": [
+    "spf-eviter",
+    "sante-toxo",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "burger",
+    "hamburger",
+    "cheeseburger",
+    "steak hache",
+    "viande hachee",
+    "boulettes",
+    "kefta"
+   ],
+   "titre": "Burger et viande hachée",
+   "texte": "Acceptables uniquement bien cuits à cœur : plus aucune trace rose. La viande hachée est plus risquée que le steak entier.",
+   "risque": "Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements). Toxoplasmose : malformations, lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche.",
+   "astuce": "Demande « bien cuit ». Retire la salade et les crudités si tu doutes qu’elles aient été lavées.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "poulet",
+    "dinde",
+    "volaille",
+    "poulet roti",
+    "cuisse de poulet",
+    "blanc de poulet",
+    "pintade",
+    "lapin",
+    "veau",
+    "porc",
+    "agneau",
+    "gigot",
+    "boeuf",
+    "steak",
+    "bavette",
+    "entrecote",
+    "cote de boeuf",
+    "escalope",
+    "viande"
+   ],
+   "titre": "Viande et volaille bien cuites",
+   "texte": "Autorisées si elles sont cuites à cœur : plus de rose ni de rouge, jus clair. Bon apport de fer et de protéines.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "kebab",
+    "doner",
+    "gyros",
+    "shawarma",
+    "tacos",
+    "burrito"
+   ],
+   "titre": "Kebab et sandwichs chauds",
+   "texte": "Possible si la viande est bien cuite et servie chaude. Méfie-toi des crudités non lavées et des sauces à base d’œuf cru.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "viande"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "sushi",
+    "sashimi",
+    "maki",
+    "makis",
+    "california roll",
+    "poke",
+    "poke bowl",
+    "tartare de saumon",
+    "tartare de thon",
+    "tartare de poisson",
+    "ceviche",
+    "carpaccio de saumon",
+    "poisson cru",
+    "saumon cru",
+    "thon cru",
+    "tataki",
+    "poisson mariné",
+    "chirashi",
+    "nigiri"
+   ],
+   "titre": "Poisson cru (sushi, sashimi, tartare, poke…)",
+   "texte": "Fortement déconseillé : listériose et parasites.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Les sushis et makis sont acceptables uniquement avec du poisson bien cuit, des légumes ou de l’avocat. Attention à la sauce soja (déconseillée par précaution).",
+   "alternative": "Maki végétal ou à la crevette bien cuite, poulet teriyaki sans sauce soja, riz et légumes.",
+   "src": [
+    "spf-eviter",
+    "foodsafety",
+    "nhs"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "saumon fume",
+    "truite fumee",
+    "poisson fume",
+    "gravlax",
+    "gravad lax",
+    "hareng",
+    "hareng marine",
+    "maquereau fume",
+    "anchois",
+    "anchois marines",
+    "esturgeon fume",
+    "haddock",
+    "morue salee"
+   ],
+   "titre": "Poisson fumé ou mariné (saumon fumé, hareng…)",
+   "texte": "Fortement déconseillé : listériose. La congélation n’élimine pas la bactérie.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Cuit à cœur dans un plat chaud (quiche, pâtes, tarte), il ne présente plus de risque (NHS). Jamais cru ni en tartine.",
+   "alternative": "Saumon frais bien cuit, ou œuf dur sur toast.",
+   "src": [
+    "spf-eviter",
+    "nhs",
+    "foodsafety"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "tarama",
+    "oeufs de poisson",
+    "caviar",
+    "oeufs de saumon",
+    "oeufs de lump",
+    "oeufs de lompe",
+    "oeufs de truite",
+    "poutargue",
+    "boutargue",
+    "tobiko",
+    "ikura"
+   ],
+   "titre": "Tarama et œufs de poisson",
+   "texte": "Fortement déconseillés : œufs de poisson crus ou peu cuits, risque de listériose.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "src": [
+    "spf-eviter"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "saumon",
+    "truite",
+    "saumon cuit",
+    "pave de saumon",
+    "cabillaud",
+    "colin",
+    "merlu",
+    "sole",
+    "lieu",
+    "poisson",
+    "poisson blanc",
+    "poisson cuit",
+    "filet de poisson",
+    "poisson pane",
+    "baton de poisson",
+    "limande",
+    "plie",
+    "dorade royale"
+   ],
+   "titre": "Poisson bien cuit",
+   "texte": "Autorisé et recommandé, cuit à cœur (chair opaque qui s’effeuille). Deux fois par semaine, dont un poisson gras (saumon, sardine, maquereau).",
+   "src": [
+    "sante-poisson",
+    "spf-precautions",
+    "nhs"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "thon",
+    "thon en boite",
+    "thon albacore",
+    "thon rouge",
+    "steak de thon",
+    "salade de thon",
+    "sandwich thon",
+    "loup de mer",
+    "dorade",
+    "lotte",
+    "raie",
+    "anguille",
+    "daurade",
+    "turbot",
+    "flétan",
+    "fletan",
+    "brochet",
+    "sandre",
+    "perche"
+   ],
+   "titre": "Thon et poissons prédateurs",
+   "texte": "À limiter : ils accumulent du mercure, y compris le thon en boîte. Varie les espèces.",
+   "risque": "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse.",
+   "alternative": "Saumon, cabillaud, colin, merlu, sardines, maquereau cuits.",
+   "src": [
+    "sante-poisson",
+    "fda-fish",
+    "nhs"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "espadon",
+    "requin",
+    "marlin",
+    "siki",
+    "saumonette",
+    "lamproie",
+    "roussette",
+    "veau de mer",
+    "emissole",
+    "pailona"
+   ],
+   "titre": "Espadon, requin, marlin, siki…",
+   "texte": "Fortement déconseillés pendant la grossesse : teneur élevée en mercure.",
+   "risque": "Le méthylmercure est toxique pour le cerveau du bébé, particulièrement vulnérable pendant la grossesse.",
+   "alternative": "Saumon, cabillaud ou colin cuits.",
+   "src": [
+    "sante-poisson",
+    "fda-fish",
+    "nhs"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "huitre",
+    "huitres",
+    "huitres crues",
+    "plateau de fruits de mer",
+    "fruits de mer",
+    "oursin",
+    "oursins",
+    "coquillages crus",
+    "palourdes crues",
+    "bulots",
+    "bigorneaux",
+    "coques",
+    "praires",
+    "clams",
+    "crevettes crues",
+    "langoustines crues",
+    "crabe cru"
+   ],
+   "titre": "Huîtres et fruits de mer crus",
+   "texte": "Fortement déconseillés crus : listériose, toxi-infections. Seulement bien cuits.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Moules, coques, palourdes et crevettes sont acceptables bien cuites et mangées chaudes (coquille ouverte à la cuisson, 63 °C pour les fruits de mer).",
+   "src": [
+    "spf-eviter",
+    "foodsafety",
+    "nhs"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "moules",
+    "moule",
+    "moules marinieres",
+    "moules frites",
+    "coquilles saint jacques",
+    "saint jacques",
+    "calamars",
+    "calmars",
+    "encornets",
+    "poulpe",
+    "seiche",
+    "crevettes cuites chaudes"
+   ],
+   "titre": "Moules et fruits de mer bien cuits",
+   "texte": "Acceptables bien cuits et servis chauds. Jette les coquillages qui restent fermés à la cuisson.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "crevettes decortiquees",
+    "crevettes froides",
+    "cocktail de crevettes",
+    "salade de crevettes",
+    "crevettes roses",
+    "queues de crevettes",
+    "crabe en boite",
+    "surimi"
+   ],
+   "titre": "Crevettes décortiquées et crustacés vendus cuits au froid",
+   "texte": "Fortement déconseillés : risque de listériose.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Achète-les crues et cuis-les toi-même jusqu’à ce qu’elles soient roses, chaudes à cœur.",
+   "alternative": "Crevettes sautées bien chaudes.",
+   "src": [
+    "spf-eviter"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "crevettes",
+    "crevette",
+    "gambas",
+    "langoustines",
+    "homard",
+    "crabe",
+    "tourteau"
+   ],
+   "titre": "Crevettes et crustacés bien cuits",
+   "texte": "Acceptables s’ils sont crus à l’achat et cuits à cœur (roses, chauds) juste avant de les manger.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ],
+   "famille": "poisson"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "oeuf dur",
+    "oeufs durs",
+    "omelette",
+    "omelette bien cuite",
+    "oeuf brouille",
+    "oeufs brouilles",
+    "quiche",
+    "tarte salee",
+    "oeuf cuit",
+    "oeuf",
+    "oeufs"
+   ],
+   "titre": "Œufs bien cuits",
+   "texte": "Autorisés s’ils sont complètement cuits : blanc et jaune fermes, sans partie liquide.",
+   "src": [
+    "spf-eviter",
+    "pasteur-salmo"
+   ],
+   "famille": "oeuf"
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "oeuf a la coque",
+    "oeuf mollet",
+    "oeufs mollets",
+    "oeufs poches",
+    "oeuf poche",
+    "oeuf au plat",
+    "oeuf miroir",
+    "oeuf cocotte",
+    "oeuf cru",
+    "oeuf coulant",
+    "oeuf baveux",
+    "oeuf mimosa"
+   ],
+   "titre": "Œuf cru, coulant ou peu cuit",
+   "texte": "À éviter : les œufs crus ou pas assez cuits peuvent transmettre la salmonelle.",
+   "risque": "Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements).",
+   "alternative": "Œuf dur, omelette bien prise.",
+   "src": [
+    "spf-eviter",
+    "pasteur-salmo"
+   ],
+   "famille": "oeuf"
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "mayonnaise",
+    "mayo",
+    "aioli",
+    "rouille",
+    "sauce tartare",
+    "sauce hollandaise",
+    "hollandaise",
+    "bearnaise",
+    "sauce bearnaise",
+    "sauce cesar",
+    "cesar",
+    "salade cesar",
+    "sauce maltaise",
+    "sauce au jaune d oeuf"
+   ],
+   "titre": "Mayonnaise et sauces à l’œuf cru",
+   "texte": "Les sauces maison à l’œuf cru sont à éviter. La mayonnaise industrielle (pot, tube) est faite avec des œufs pasteurisés : elle est acceptable. Au restaurant, demande si elle est maison.",
+   "risque": "Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements).",
+   "alternative": "Vinaigrette, huile d’olive et citron, ketchup, moutarde.",
+   "src": [
+    "spf-eviter",
+    "pasteur-salmo"
+   ],
+   "famille": "oeuf"
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "tiramisu",
+    "mousse au chocolat",
+    "mousse au citron",
+    "mousse aux fruits",
+    "creme au beurre",
+    "meringue italienne",
+    "chantilly maison aux oeufs",
+    "sabayon",
+    "zabaglione",
+    "pate a gateau crue",
+    "pate a cookie crue",
+    "pate crue",
+    "creme anglaise crue",
+    "oeufs en neige"
+   ],
+   "titre": "Desserts à l’œuf cru (tiramisu, mousse au chocolat…)",
+   "texte": "Déconseillés : œufs crus (salmonelle). Le tiramisu contient aussi souvent de l’alcool et du café. Au restaurant, demande si la mousse est faite avec des œufs cuits ou pasteurisés.",
+   "risque": "Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements).",
+   "alternative": "Crème brûlée, flan, riz au lait, fondant bien cuit, salade de fruits.",
+   "src": [
+    "spf-eviter",
+    "pasteur-salmo"
+   ],
+   "famille": "oeuf"
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "creme brulee",
+    "flan",
+    "creme caramel",
+    "ile flottante",
+    "iles flottantes",
+    "creme patissiere",
+    "eclair",
+    "religieuse",
+    "tarte au citron",
+    "meringue",
+    "gateau",
+    "cake",
+    "brioche",
+    "madeleine",
+    "crepe",
+    "gaufre",
+    "pancake",
+    "tarte aux pommes",
+    "tarte",
+    "clafoutis",
+    "riz au lait",
+    "fondant au chocolat",
+    "brownie",
+    "pain perdu"
+   ],
+   "titre": "Desserts cuits",
+   "texte": "Acceptables : les œufs sont cuits à cœur. Vérifie simplement qu’il n’y a pas d’alcool dans la recette (rhum, kirsch, flambage).",
+   "src": [
+    "spf-eviter"
+   ],
+   "famille": "oeuf"
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "patisserie",
+    "dessert",
+    "gateau du restaurant"
+   ],
+   "titre": "Pâtisseries et desserts",
+   "texte": "Cuits (tarte, flan, crème brûlée, éclair) : acceptables. À éviter : mousse, tiramisu et crèmes à l’œuf cru, et tout dessert à l’alcool (flambé, babà, baba au rhum).",
+   "src": [
+    "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "pizza",
+    "pizza reine",
+    "pizza 4 fromages",
+    "pizza chevre",
+    "calzone"
+   ],
+   "titre": "Pizza",
+   "texte": "Possible si les ingrédients sont cuits à cœur et la pizza servie chaude. À écarter : jambon cru, saumon fumé, chorizo ou pepperoni non cuits, gorgonzola, œuf peu cuit. La mozzarella fondue est acceptable.",
+   "alternative": "Margherita, végétarienne, poulet, reine (jambon chaud).",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "fondue",
+    "fondue savoyarde",
+    "fondue au fromage",
+    "fondue bourguignonne",
+    "fondue chinoise",
+    "fondue bacchus"
+   ],
+   "titre": "Fondue",
+   "texte": "La fondue au fromage (comté, beaufort, emmental) est faite de pâtes pressées cuites : acceptable, mais le vin blanc et le kirsch contiennent de l’alcool à écarter, même cuit. À la bourguignonne, cuis la viande à cœur.",
+   "risque": "Fausse couche, malformations, retard de croissance, naissance prématurée et troubles causés par l’alcoolisation fœtale. Il n’existe pas de quantité d’alcool sûre.",
+   "astuce": "Demande une fondue sans alcool ou prépare-la avec du jus de raisin blanc ou du bouillon.",
+   "src": [
+    "spf-eviter",
+    "sante-alcool"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "raclette",
+    "raclette au fromage",
+    "tartiflette",
+    "croziflette"
+   ],
+   "titre": "Raclette et tartiflette",
+   "texte": "Le fromage bien fondu et chaud est acceptable au lait pasteurisé. La charcuterie crue ou froide qui l’accompagne est à écarter. Le reblochon de la tartiflette est déconseillé, sauf bouillant à cœur et sans croûte.",
+   "alternative": "Pommes de terre, légumes, poulet cuit, fromage à raclette pasteurisé bien fondu.",
+   "src": [
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "salade",
+    "crudites",
+    "salade composee",
+    "salade verte",
+    "legumes crus",
+    "tomate",
+    "concombre",
+    "carotte rapee",
+    "salade en sachet",
+    "radis",
+    "chou cru",
+    "crudite",
+    "buffet de crudites"
+   ],
+   "titre": "Salade et légumes crus",
+   "texte": "Acceptables s’ils sont bien lavés (toxoplasmose). Au restaurant, tu ne peux pas vérifier : en cas de doute, choisis des légumes cuits. À la maison, lave-les bien, même ceux des sachets.",
+   "risque": "Toxoplasmose : malformations, lésions du cerveau ou des yeux du bébé et, dans les cas extrêmes, fausse couche.",
+   "src": [
+    "sante-toxo",
+    "spf-precautions",
+    "foodsafety"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "germes",
+    "graines germees",
+    "pousses",
+    "pousses de soja",
+    "germes de soja",
+    "alfalfa",
+    "luzerne",
+    "pousses d alfalfa",
+    "radis germes",
+    "sprouts",
+    "mungo"
+   ],
+   "titre": "Graines germées et pousses crues",
+   "texte": "Fortement déconseillées crues : listériose.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme.",
+   "astuce": "Cuites à cœur, elles ne présentent plus de risque.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "melon",
+    "pasteque",
+    "fruits coupes",
+    "salade de fruits",
+    "fruit",
+    "fruits"
+   ],
+   "titre": "Fruits et fruits coupés",
+   "texte": "À laver avant de les couper. Les fruits déjà coupés, laissés à température ambiante (buffet), sont à éviter : choisis des fruits entiers que tu épluches toi-même.",
+   "src": [
+    "foodsafety",
+    "spf-precautions"
+   ]
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "buffet",
+    "buffet a volonte",
+    "salad bar",
+    "buffet froid",
+    "buffet de l hotel",
+    "all you can eat"
+   ],
+   "titre": "Buffet",
+   "texte": "À risque : les plats restent longtemps à température ambiante. Choisis uniquement ce qui est fumant, évite les plats froids, les charcuteries, le fromage en libre-service, les œufs et les fruits de mer.",
+   "risque": "Listériose : fausse couche, mort du bébé in utero, accouchement prématuré, infection grave du nouveau-né. Elle peut toucher le bébé même si tu n’as aucun symptôme. Salmonellose : infection parfois très sévère chez la femme enceinte (fièvre, diarrhée, vomissements).",
+   "src": [
+    "foodsafety",
+    "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "sandwich",
+    "sandwich du commerce",
+    "sandwich de boulangerie",
+    "panini",
+    "croque monsieur",
+    "croque"
+   ],
+   "titre": "Sandwichs",
+   "texte": "Choisis poulet cuit, œuf dur, fromage à pâte pressée cuite, ou thon (à limiter). Évite le jambon froid, le saumon fumé, les fromages à croûte, les pousses et les sauces maison à l’œuf cru. Un croque-monsieur bien chaud est acceptable.",
+   "src": [
+    "spf-eviter",
+    "foodsafety"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "pates",
+    "pates carbonara",
+    "carbonara",
+    "spaghetti",
+    "tagliatelles",
+    "lasagnes",
+    "risotto",
+    "riz",
+    "gnocchis",
+    "ravioli"
+   ],
+   "titre": "Pâtes, riz, risotto",
+   "texte": "Sans problème, bien cuits et chauds. Pour la carbonara, demande si l’œuf est cuit (il ne doit pas rester cru) et si les lardons sont bien cuits.",
+   "src": [
+    "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "couscous",
+    "tajine",
+    "paella",
+    "pad thai",
+    "nems",
+    "ratatouille",
+    "gratin",
+    "soupe",
+    "veloute",
+    "legumes cuits",
+    "frites",
+    "pommes de terre",
+    "puree",
+    "legumineuses",
+    "lentilles",
+    "pois chiches",
+    "haricots"
+   ],
+   "titre": "Plats chauds bien cuits",
+   "texte": "Acceptables, tant que la viande et les fruits de mer sont bien cuits et le plat servi chaud.",
+   "src": [
+    "spf-eviter",
+    "sante-autorises"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "houmous",
+    "guacamole",
+    "tzatziki",
+    "baba ganoush",
+    "caviar d aubergine"
+   ],
+   "titre": "Houmous, guacamole, tzatziki…",
+   "texte": "Acceptables en version du commerce (pasteurisée) ou faits maison avec des ingrédients frais et lavés, conservés au frais et mangés rapidement. Au restaurant, préfère-les s’ils sont préparés le jour même.",
+   "src": [
+    "foodsafety",
+    "spf-precautions"
+   ]
+  },
+  {
+   "niveau": "deconseille",
+   "noms": [
+    "soja",
+    "tofu",
+    "sauce soja",
+    "lait de soja",
+    "yaourt au soja",
+    "edamame",
+    "miso",
+    "soupe miso",
+    "tempeh",
+    "tamari",
+    "nouilles de soja",
+    "steak de soja"
+   ],
+   "titre": "Soja et produits à base de soja (tofu, sauce soja, miso…)",
+   "texte": "À éviter par précaution pendant la grossesse (phytoœstrogènes).",
+   "risque": "Pas de risque chiffré dans nos sources : c’est une précaution (phytoœstrogènes).",
+   "alternative": "Lait d’avoine ou de riz, légumineuses (lentilles, pois chiches).",
+   "src": [
+    "spf-precautions",
+    "spf-eviter"
+   ]
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "algues",
+    "nori",
+    "wakame",
+    "kombu",
+    "spiruline",
+    "chlorella",
+    "salade d algues",
+    "sushi nori"
+   ],
+   "titre": "Algues",
+   "texte": "À éviter ou limiter : très riches en iode.",
+   "risque": "Les algues sont très riches en iode : un excès n’est pas recommandé pendant la grossesse.",
+   "src": [
+    "spf-nutriments"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "pate a pizza",
+    "pate a tarte",
+    "pate feuilletee",
+    "pate brisee",
+    "pate sablee",
+    "pate a crepes",
+    "pate a gaufres",
+    "pate a choux",
+    "pate de fruits"
+   ],
+   "titre": "Pâtes à tarte, à pizza, à crêpes",
+   "texte": "Aucun souci une fois cuites. Ne mange pas de pâte crue (œufs crus, farine crue).",
+   "src": [
+    "spf-eviter",
+    "pasteur-salmo"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "pain",
+    "baguette",
+    "pain complet",
+    "pain de mie",
+    "cereales",
+    "flocons d avoine",
+    "avoine",
+    "porridge",
+    "quinoa",
+    "semoule",
+    "boulgour",
+    "polenta",
+    "patate douce",
+    "muesli",
+    "granola",
+    "biscottes",
+    "tortilla",
+    "wrap",
+    "pita"
+   ],
+   "titre": "Pain, céréales et féculents",
+   "texte": "Autorisés : des féculents à chaque repas, de préférence complets pour les fibres.",
+   "src": [
+    "spf-nutriments",
+    "sante-autorises"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "pomme",
+    "poire",
+    "banane",
+    "orange",
+    "clementine",
+    "mandarine",
+    "fraise",
+    "framboise",
+    "raisin",
+    "kiwi",
+    "mangue",
+    "ananas",
+    "avocat",
+    "peche",
+    "abricot",
+    "cerise",
+    "prune",
+    "epinards",
+    "brocoli",
+    "courgette",
+    "poivron",
+    "haricots verts",
+    "champignons",
+    "aubergine",
+    "chou",
+    "carotte",
+    "betterave",
+    "potiron",
+    "courge",
+    "poireau",
+    "petits pois"
+   ],
+   "titre": "Fruits et légumes",
+   "texte": "Recommandés : 5 portions par jour. Lave-les bien et épluche-les si tu doutes, surtout ceux que tu manges crus.",
+   "src": [
+    "sante-autorises",
+    "sante-toxo",
+    "spf-nutriments"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "cacahuete",
+    "cacahuetes",
+    "arachide",
+    "arachides",
+    "noix",
+    "amande",
+    "amandes",
+    "noisette",
+    "noisettes",
+    "pistache",
+    "pistaches",
+    "noix de cajou",
+    "fruits secs",
+    "beurre de cacahuete"
+   ],
+   "titre": "Fruits à coque et cacahuètes",
+   "texte": "Autorisés, sauf allergie personnelle. Bon apport de fibres et de bonnes graisses.",
+   "src": [
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "miel",
+    "confiture",
+    "sirop d erable",
+    "chocolat",
+    "chocolat noir",
+    "chocolat au lait",
+    "nutella",
+    "pate a tartiner",
+    "bonbons"
+   ],
+   "titre": "Miel, chocolat, sucreries",
+   "texte": "Autorisés avec modération. Le chocolat contient un peu de caféine : compte-la dans ton total de la journée.",
+   "src": [
+    "spf-nutriments",
+    "efsa"
+   ]
+  },
+  {
+   "niveau": "fort",
+   "noms": [
+    "alcool",
+    "vin",
+    "vin rouge",
+    "vin blanc",
+    "vin rose",
+    "biere",
+    "champagne",
+    "prosecco",
+    "cidre",
+    "cocktail",
+    "whisky",
+    "vodka",
+    "rhum",
+    "gin",
+    "kir",
+    "spritz",
+    "aperol",
+    "mojito",
+    "sangria",
+    "pastis",
+    "ricard",
+    "porto",
+    "digestif",
+    "aperitif",
+    "liqueur",
+    "cognac",
+    "armagnac",
+    "calvados",
+    "limoncello",
+    "biere artisanale",
+    "verre de vin",
+    "un verre",
+    "coupe de champagne",
+    "pina colada",
+    "margarita",
+    "mimosa",
+    "kombucha alcoolise"
+   ],
+   "titre": "Alcool",
+   "texte": "Fortement déconseillé : aucune quantité n’est sûre, même une petite quantité, même occasionnelle.",
+   "risque": "Fausse couche, malformations, retard de croissance, naissance prématurée et troubles causés par l’alcoolisation fœtale. Il n’existe pas de quantité d’alcool sûre.",
+   "alternative": "Eau pétillante au citron, jus de fruits, cocktail sans alcool (mocktail).",
+   "src": [
+    "sante-alcool",
+    "spf-eviter",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "biere sans alcool",
+    "sans alcool",
+    "0 0",
+    "biere 0",
+    "vin sans alcool",
+    "champagne sans alcool",
+    "cocktail sans alcool",
+    "mocktail",
+    "virgin"
+   ],
+   "titre": "Boissons « sans alcool »",
+   "texte": "Une boisson « sans alcool » peut contenir jusqu’à 0,5 % d’alcool. Choisis plutôt « 0,0 % », ou un jus ou une eau aromatisée.",
+   "src": [
+    "sante-alcool"
+   ]
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "cafe",
+    "expresso",
+    "espresso",
+    "cappuccino",
+    "latte",
+    "cafe au lait",
+    "nespresso",
+    "decafeine",
+    "cafe decafeine"
+   ],
+   "titre": "Café",
+   "texte": "Autorisé avec modération : environ 3 tasses par jour au maximum, toutes sources de caféine confondues (café, thé, sodas, chocolat). Le décaféiné reste possible.",
+   "risque": "Trop de caféine est associée à un risque plus élevé de retard de croissance et de fausse couche.",
+   "src": [
+    "spf-precautions",
+    "efsa",
+    "nhs"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "the",
+    "the noir",
+    "the vert",
+    "matcha",
+    "the glace",
+    "ice tea",
+    "boisson au the"
+   ],
+   "titre": "Thé",
+   "texte": "Autorisé avec modération : le thé contient de la caféine, en général moins qu’un café par tasse. Compte-le dans ton total quotidien (environ 3 tasses de café, ou 200 mg de caféine).",
+   "src": [
+    "efsa",
+    "nhs",
+    "spf-precautions"
+   ]
+  },
+  {
+   "niveau": "limiter",
+   "noms": [
+    "coca",
+    "cola",
+    "coca cola",
+    "pepsi",
+    "soda",
+    "red bull",
+    "energy drink",
+    "boisson energisante",
+    "monster",
+    "boisson energetique",
+    "guarana"
+   ],
+   "titre": "Cola et boissons énergisantes",
+   "texte": "Les boissons énergisantes sont déconseillées (caféine très concentrée). Le cola contient de la caféine : compte-la dans ton total quotidien.",
+   "risque": "Trop de caféine : risque plus élevé de retard de croissance et de fausse couche.",
+   "alternative": "Eau pétillante, jus de fruits dilué.",
+   "src": [
+    "efsa",
+    "nhs",
+    "spf-precautions"
+   ]
+  },
+  {
+   "niveau": "info",
+   "noms": [
+    "jus",
+    "jus de fruits",
+    "jus d orange",
+    "jus presse",
+    "smoothie",
+    "jus frais",
+    "jus de pomme",
+    "citron presse",
+    "orange pressee"
+   ],
+   "titre": "Jus de fruits et smoothies",
+   "texte": "Les jus pasteurisés du commerce sont acceptables. Un jus pressé minute à partir de fruits lavés l’est aussi. Évite les jus frais non pasteurisés vendus en bouteille. Limite les quantités à cause du sucre.",
+   "src": [
+    "foodsafety",
+    "spf-precautions"
+   ]
+  },
+  {
+   "niveau": "ok",
+   "noms": [
+    "eau",
+    "eau gazeuse",
+    "eau petillante",
+    "eau du robinet",
+    "badoit",
+    "perrier",
+    "limonade",
+    "sirop",
+    "diabolo"
+   ],
+   "titre": "Eau et boissons sans caféine",
+   "texte": "Autorisées : bois de l’eau régulièrement. Limite les boissons très sucrées.",
+   "src": [
+    "spf-nutriments"
+   ]
+  }
+ ]
+}
